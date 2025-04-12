@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Permen Cinta</title>
+    <title>DUARR</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -78,7 +78,7 @@
 <body>
     <canvas id="stars"></canvas>
     <div class="container">
-        <h1 id="question">Do u want to be</h1>
+        <h1 id="question">Do u want to be my gf?</h1>
         <div class="buttons">
             <button id="yesBtn">Yes</button>
             <button id="noBtn">No</button>
@@ -132,15 +132,15 @@
 
         yesBtn.addEventListener('click', () => {
             if (step === 1) {
-                questionEl.textContent = 'Apakah kamu yakin?';
+                questionEl.textContent = 'Are u sure?';
                 step = 2;
             } else if (step === 2) {
-                questionEl.textContent = 'Apakah kamu benar-benar yakin?';
+                questionEl.textContent = 'Are you completely sure?';
                 step = 3;
                 noBtn.addEventListener('mouseover', makeNoButtonFly);
                 noBtn.addEventListener('click', makeNoButtonFly);
             } else if (step === 3) {
-                questionEl.textContent = 'Yay! Aku bahagia banget! ❤️';
+                questionEl.textContent = 'YEAHHHHHHHHHHHHHHHHHHHHHHHHH BOIIIII YES YES YES';
                 yesBtn.style.display = 'none';
                 noBtn.style.display = 'none';
             }
@@ -148,7 +148,7 @@
 
         noBtn.addEventListener('click', () => {
             if (step < 3) {
-                alert('Ayo dong, pikirkan lagi! 😊');
+                alert('MMMMMMMM???');
             }
         });
     </script>
